@@ -1,0 +1,24 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.header {
+    padding-top: 7rem;    
+    padding-bottom: 7rem;
+    background-image: url('../static/background.gif');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    image-rendering: pixelated;
+}
+
+.greetings-text {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+}
