@@ -1,34 +1,47 @@
+html {
+    --bg-light: #181a1b;
+    --bg-dark: #0d1214;
+    --text-light: white;
+    --text-dark: #aec2d3;
+}
 
 body {
     padding: 0;
     margin: 0;
     height: 100%;
     
-    background-color: #0d1214;
+    background-color: var(--bg-dark);
 }
 
 .nav {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 .nav li {
-    float: left;
+    float: right;
     padding-right: 1em;
+    padding-top: 0.25rem;
+}
+.nav li :hover {
+    color: var(--text-light);
+}
+.nav li a {
+    text-decoration: none;
+    color: var(--text-dark); 
+    transition: all 0.3s;
 }
 
 .header {
     padding-top: 7rem;    
     padding-bottom: 7rem;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    background-position: center;
-    image-rendering: pixelated;
 
     text-align: center;
-    background-color: #181a1b;
+    background-color: var(--bg-light);
 }
 
 .greetings-text {
-    color: white;
+    color: var(--text-light);
     font-weight: bold;
     font-size: 2rem;
     padding: 0;
@@ -55,17 +68,18 @@ body {
     filter: invert(99%) sepia(4%) saturate(18%) hue-rotate(245deg) brightness(106%) contrast(100%);    
 }
 
-.github-icon:hover {
+.github-icon :hover {
     filter: invert(99%) sepia(0%) saturate(4600%) hue-rotate(35deg) brightness(117%) contrast(38%);
 }
-.devpost-icon:hover {
+.devpost-icon :hover {
     filter: invert(23%) sepia(69%) saturate(1889%) hue-rotate(187deg) brightness(93%) contrast(99%);
 }
-.itchio-icon:hover {
+.itchio-icon :hover {
     filter: invert(57%) sepia(58%) saturate(4810%) hue-rotate(327deg) brightness(97%) contrast(94%);
 }
+
 .bio {
-    color: #aec2d3;
+    color: var(--text-dark);
     text-align: center;
 }
 
