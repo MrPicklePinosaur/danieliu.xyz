@@ -3,6 +3,8 @@ html {
     --bg-dark: #0d1214;
     --text-light: white;
     --text-dark: #aec2d3;
+
+    font-family: arial, helvetica, sans-serif;
 }
 
 body {
