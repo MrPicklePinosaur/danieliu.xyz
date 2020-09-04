@@ -3,16 +3,28 @@ body {
     padding: 0;
     margin: 0;
     height: 100%;
+    
+    background-color: #0d1214;
+}
+
+.nav {
+    list-style: none;
+}
+.nav li {
+    float: left;
+    padding-right: 1em;
 }
 
 .header {
     padding-top: 7rem;    
     padding-bottom: 7rem;
-    background-image: url('../static/background.gif');
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center;
     image-rendering: pixelated;
+
+    text-align: center;
+    background-color: #181a1b;
 }
 
 .greetings-text {
@@ -22,3 +34,38 @@ body {
     padding: 0;
     margin: 0;
 }
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.social-icons li {
+    display: inline;
+}
+.social-icons li a {
+    text-decoration: none;
+}
+.social-icons li a img {
+    width: auto;
+    height: 2rem;
+    padding: 0.25rem;
+
+    transition: all 0.3s;
+    filter: invert(99%) sepia(4%) saturate(18%) hue-rotate(245deg) brightness(106%) contrast(100%);    
+}
+
+.github-icon:hover {
+    filter: invert(99%) sepia(0%) saturate(4600%) hue-rotate(35deg) brightness(117%) contrast(38%);
+}
+.devpost-icon:hover {
+    filter: invert(23%) sepia(69%) saturate(1889%) hue-rotate(187deg) brightness(93%) contrast(99%);
+}
+.itchio-icon:hover {
+    filter: invert(57%) sepia(58%) saturate(4810%) hue-rotate(327deg) brightness(97%) contrast(94%);
+}
+.bio {
+    color: #aec2d3;
+    text-align: center;
+}
+
