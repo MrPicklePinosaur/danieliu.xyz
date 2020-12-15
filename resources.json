@@ -1,0 +1,147 @@
+[
+    {
+        "name": "",
+        "description": "",
+        "tags": [ ]
+    },
+
+    {
+        "name": "dwm",
+        "description": "",
+        "tags": [ "window manager" ]
+    },
+
+    {
+        "name": "st",
+        "description": "",
+        "tags": [ "terminal emulator" ]
+    },
+
+    {
+        "name": "brave",
+        "description": "",
+        "tags": [ "web browser" ]
+    },
+
+    {
+        "name": "gvim",
+        "description": "",
+        "tags": [ "text editor" ]
+    },
+
+    {
+        "name": "mpv",
+        "description": "",
+        "tags": [ "media player" ]
+    },
+
+    {
+        "name": "zathura",
+        "description": "",
+        "tags": [ "pdf viewer" ]
+    },
+
+    {
+        "name": "lf",
+        "description": "",
+        "tags": [ "file manager" ]
+    },
+
+    {
+        "name": "networkmanager",
+        "description": "",
+        "tags": [ "network manager" ]
+    },
+
+    {
+        "name": "picom",
+        "description": "",
+        "tags": [ "compositor" ]
+    },
+
+    {
+        "name": "taskell",
+        "description": "",
+        "tags": [ "todo list" ]
+    },
+
+    {
+        "name": "newsboat",
+        "description": "",
+        "tags": [ "rss reader" ]
+    },
+
+    {
+        "name": "sxhkd",
+        "description": "",
+        "tags": [ "hotkey daemon" ]
+    },
+
+    {
+        "name": "texlive",
+        "description": "",
+        "tags": [ "latex" ]
+    },
+
+    {
+        "name": "",
+        "description": "",
+        "tags": [ ]
+    },
+
+    {
+        "name": "",
+        "description": "",
+        "tags": [ ]
+    },
+
+    {
+        "name": "",
+        "description": "",
+        "tags": [ ]
+    },
+
+    {
+        "name": "cowsay",
+        "description": "",
+        "tags": [ "toy" ]
+    },
+
+    {
+        "name": "figlet",
+        "description": "",
+        "tags": [ "toy" ]
+    },
+
+    {
+        "name": "",
+        "description": "",
+        "tags": [ ]
+    },
+
+    {
+        "name": "",
+        "description": "",
+        "tags": [ ]
+    },
+
+    {
+        "name": "",
+        "description": "",
+        "tags": [ ]
+    },
+
+    {
+        "name": "",
+        "description": "",
+        "tags": [ ]
+    },
+
+    {
+        "name": "",
+        "description": "",
+        "tags": [ ]
+    }
+
+
+]
