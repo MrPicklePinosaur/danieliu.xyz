@@ -1,0 +1,14 @@
+#resources-logo {
+    image-rendering: pixelated;
+    height: var(--header-height);
+    width: auto;
+    position: absolute;
+    margin: auto;
+    left: 0; right: 0;
+}
+
+#body-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2rem;
+}
