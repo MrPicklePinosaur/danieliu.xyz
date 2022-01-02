@@ -1,0 +1,18 @@
+
+#main-container {
+    margin-top: 5rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 3rem;
+}
+
+table {
+    margin-top: 2rem;
+    width: 100%;
+}
+table tr {
+    text-align: left;
+}
+table th {
+    color: var(--text-light);
+}
