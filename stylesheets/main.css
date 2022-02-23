@@ -35,3 +35,14 @@
 #body-container {
     flex-grow: 1;
 }
+
+#tagline {
+    margin: 0;
+}
+
+.link-section {
+    margin: 0;
+}
+.link-tagline {
+    margin: 0;
+}

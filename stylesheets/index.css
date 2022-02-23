@@ -82,3 +82,12 @@ hr {
     border: 1px solid var(--text-light);
 }
 
+.back-button {
+    color: var(--text-dark);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.back-button:hover {
+    color: var(--text-light);
+}
+
