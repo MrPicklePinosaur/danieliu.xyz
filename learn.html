@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="utf-8">
+        <title>resources | danieliu.xyz</title>
+        <link rel="stylesheet" href="stylesheets/index.css"> 
+        <link rel="stylesheet" href="stylesheets/resources.css"> 
+        <link rel="stylesheet" href="stylesheets/learn.css"> 
+        <link rel="shortcut icon" href="static/danieliuxyz_fav.png">
+
+    </head>
+        
+    <body>
+
+        <div id="main-container">
+            <a href="index.html" class="back-button">&lt; danieliu.xyz</a>
+            <h1>I want to learn...</h1>
+            <hr>
+            list of resources for a variety of topics - collected from my experiences
+
+            <h2>Programming Languages</h2>
+            <h3>C</h3>
+            <div class="learn-container">
+                <p><a href="https://www.youtube.com/channel/UCwd5VFu4KoJNjkWJZMFJGHQ">Jacob Sorber's Youtube Channel</a> - entire youtube channel dedicated to a variety of c concepts</p>
+            </div>
+
+            <h3>C++</h3>
+            <div class="learn-container">
+                <p><a href="https://www.youtube.com/watch?v=18c3MTX0PK0&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb">Cherno's cpp series</a> - youtube playlist covering a bunch of cpp concepts, use this as more of a reference than a guide</p>
+                <p><a href="https://cplusplus.com/">cplusplus.com</a> - my favourite site for cpp documentation</p>
+            </div>
+
+            <h3>x86 assembly</h3>
+            <div class="learn-container">
+                <p><a href="https://www.youtube.com/watch?v=wLXIWKUWpSs&list=PLmxT2pVYo5LB5EzTPZGfFN0c2GDiSXgQe">Davy Wybiral</a> - brief youtube playlist with some assembly programming basics, should get you started</p>
+            </div>
+
+            <h3>Haskell</h3>
+            <div class="learn-container">
+                <p><a href="http://learnyouahaskell.com/chapters">Learn YOu a Haskell for Great Good!</a> - very detailed and well explained book on haskell</p>
+                <p><a href="https://www.youtube.com/watch?v=Vgu82wiiZ90&list=PLe7Ei6viL6jGp1Rfu0dil1JH1SHk9bgDV">Haskell for Imperative Programmers series</a> - youtube series on various haskell topics. goes very in-depth. might be better to use this one as a reference instead of watching every single video</p>
+            </div>
+            <h3>Rust</h3>
+            rust has a bit of a learning curve, especially if you are not familiar with cpp.
+            <div class="learn-container">
+                <p><a href="https://www.youtube.com/watch?v=OX9HJsJUDxA&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0h3Y8">Let's Get Rusty series</a> - youtube playlist on a whole bunch of haskell concepts</p>
+                <p><a href="https://github.com/nrc/r4cppp">r4cppp: rust for C++ programmers</a> - exactly what it sounds like. if you are familiar with cpp, this will be a very great help</p>
+            </div>
+
+            <h2>Rendering Libraries</h2>
+            <h3>OpenGL</h3>
+            Learn about OpenGL rendering concepts like primitives (VBs, IBs, VAOs), shaders (lighting, textures, maps), and some linear algebra concepts. Most resources use cpp.
+            <div class="learn-container">
+                <p><a href="https://learnopengl.com/">learnopengl.com</a> - solid website that walks you through OpenGL basics. you can easily get by by only following this</p>
+                <p><a href="https://www.youtube.com/watch?v=W3gAzLwfIP0&list=PLlrATfBNZ98foTJPJ_Ev03o2oq3-GGOS2">Cherno OpenGL series</a> - youtube playlist tutorial about various OpenGL concepts. also focuses on optimizations and does some things in more efficient ways than learnopengl.com</p>
+                <p><a href="https://docs.gl/">docs.gl</a> - OpenGL documentation (use as a reference)</p>
+            </div>
+
+            <h3>Ncurses</h3>
+            Primarily focus on c.
+            <div class="learn-container">
+                <p><a href="https://tldp.org/HOWTO/NCURSES-Programming-HOWTO/">NCURSES HOWTO</a> - basic website based guide to walk through Ncurses basics. also covers a couple of ncurses libraries like the panel, menu and form libraries. also includes a couple of example projects</p>
+                <p><a href="https://www.youtube.com/watch?v=lV-OPQhPvSM">Casual Coder Ncurses series</a> - youtube playlist that covers some ncurses fundamentals. this is good if you like video tutorials over text. also explains a couple of important concepts in good depth.</p>
+                <p><a href="https://invisible-island.net/ncurses/man/ncurses.3x.html">ncurses 3x</a> - documentation for ncurses library (use as reference, and also in depth reading)</p>
+            </div>
+
+            <h3>Xlib (rust)</h3>
+            Learn xlib programming with rust (the language i chose). Good luck with this one - xlib is huge and documentation is sparse. I had to scour the source code as documentation. To get started, you need rust bindings for xlib, i ended up using <a href="https://docs.rs/x11rb/latest/x11rb/">x11rb</a>. My best advice for this is to read the source code for other projects that use <a href="https://docs.rs/x11rb/latest/x11rb/">x11rb</a> to figure out what the heck is going on. It may perhaps be better to learn xlib first using c as there seems to be more resources.
+            <div class="learn-container">
+                <p><a href="https://github.com/psychon/x11rb/blob/master/x11rb/examples/tutorial.rs">x11rb tutorial</a> - decent walkthrough of x11 basics. nothing much on extensions like render or xkb though</p>
+                <p><a href="https://venam.nixers.net/blog/unix/2018/09/02/fonts-xcb.html">XFT but for XCB</a> - font rendering concepts</p>
+            </div>
+
+            <!-- <h2>Devops</h2> -->
+
+        </div>
+        
+    </body>
+
+</html>
